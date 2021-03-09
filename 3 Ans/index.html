@@ -5,16 +5,23 @@
   <style>
     body {
       max-width: 960px;
+      background-color: #FCFAED; 
     }
-    header {
-      background-color: #5fb8b4;
-    }
+    
     nav a{
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
       text-decoration: none;
-      padding: 0 20px
+      font-family: "Times New Roman", Times, serif;
+
     }
     nav{
       display:flex;
+      background-color: #5FB8B4;
+      padding: 15px;
+      color: black;
     }
     .last-two{
       display: flex;
@@ -31,11 +38,17 @@
     .area{
       display: flex;
       padding-top: 20px;
+      
     }
-    .area{
+    .area2{
       display: flex;
       padding-top: 20px;
     }
+    .color1{
+      color: #4A4CCC;
+      font-family: "Times New Roman", Times, serif; 
+    }
+
     .third{
       width:240px;
       border: 1px solid black;
@@ -44,8 +57,9 @@
       border-radius: 10px;
       background-color: #5fb8b4;
     }
-    .think{
+    .side1{
       display: flex;
+      font-family: "Times New Roman", Times, serif;
     }
     .side{
       border: 1px solid black;
@@ -55,62 +69,72 @@
     }
     .middle{
       text-align: center;
-      background-color: purple;
+      color: white;
+      background-color: #131746;
+      padding: 50px;
+
     }
 
   </style>
 </head>
+
+
 <body>
   <header>
     <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Services</a>
-      <a href="">FAQ</a>
-    
-        <a id='register' href="">LogIn</a>
-        <a href="">Register </a>
+      <a href=""><b>Home</b></a>
+      <a href=""><b>About</b></a>
+      <a href=""><b>Services</b></a>
+      <a href=""><b>FAQ</b></a>
+      <a id='register' href=""><b>Login</b></a>
+      <a href=""><b>Register</b> </a>
     </nav>  
   </header>
+
   <section class="area">
     <div style="width:30%">
       <h1>Welcome</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum vero amet repellat magnam, voluptate aliquam illum. Ullam debitis dolor esse.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. </p>
     </div>
+
     <div style="width:50%">
       <img width="650px" height="200px" src="img.jpg" alt="">
     </div>
   </section>
 
   <section class="area">
-    <div class="third">Card - 1</div>
-    <div class="third">Card - 2</div>
-    <div class="third">Card - 3</div>
-    <div class="third">Card - 4</div>
+    <div class="third">Card-1</div>
+    <div class="third">Card-2</div>
+    <div class="third">Card-3</div>
+    <div class="third">Card-4</div>
   </section>
 
-  <section class="area">
+  <section class="area2">
     <div style="width:50%">
-      <h1>Title</h1>
-      <p>Some Paragraph</p>
+      <h1 class="color1"> <i>Title.. </i></h1>
+      <p>Some Paragraph....</p>
     </div>
-    <div class="think" style="width:50%">
+
+    <div class="side1" style="width:50%">
       <div>
         <img width="200px" height="200px" src="img2.jpg" alt="">
-        <p>Some text</p>
+        <h3><b> <i>some text..</i></b></h3>
       </div>
 
       <div>
-        <h2 class="side">Service</h2>
-        <h2 class="side">FAQ</h2>
-        <h2 class="side">ADs</h2>
+        <h4 class="side">Service</h4>
+        <h4 class="side">FAQ</h4>
+        <h4 class="side">ADs.</h4>
       </div>
     </div>
   </section>
 
   <section>
     <div  class="middle">
-     <h1>footer</h1>
+     <h1> <i>footer</i></h1>
     </div>
   </section>
 </body>
